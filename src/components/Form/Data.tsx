@@ -9,7 +9,7 @@ function Data({ email, password, showData }: DataProps) {
     <section className="dataContainer">
       {showData && (
         <>
-          <p>INGRESANDO...</p>
+          <p>Iniciando Sesion...</p>
         </>
       )}
     </section>

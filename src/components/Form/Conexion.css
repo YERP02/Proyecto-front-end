@@ -1,0 +1,49 @@
+.movieContainer {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #222; /* Color de fondo oscuro */
+  color: #fff; /* Color de texto blanco */
+}
+
+.movieContainer h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #fff; /* Color de texto blanco */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #333; /* Color de fondo más oscuro para encabezados */
+  color: #fff; /* Color de texto blanco */
+  border-bottom: 2px solid #555; /* Borde inferior más oscuro */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #444; /* Color de fondo para filas pares */
+}
+
+table tbody tr:hover {
+  background-color: #555; /* Color de fondo cuando se pasa el mouse */
+}
+
+/* Estilos para el mensaje de carga */
+.movieContainer p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ccc; /* Color de texto gris claro */
+}

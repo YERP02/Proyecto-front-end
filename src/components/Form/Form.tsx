@@ -4,7 +4,7 @@ import Data from "./Data";
 
 const loginData = {
   email: "vnavarro@ceti.mx",
-  password: "123456",
+  password: "1234",
 };
 
 function Form() {
@@ -18,11 +18,6 @@ function Form() {
   //     }
   //   }, [email]);
 
-  //   const handleInputChange = (stateUpdate) => {
-  //     return (event) => {
-  //       stateUpdate(event.target.value);
-  //     };
-  //   };
   const handleOnEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(event.target.value);
   };
@@ -31,20 +26,7 @@ function Form() {
   ) => {
     setPassword(event.target.value);
   };
-  //   const handleOnClick = () => {
-  //     if (showData) {
-  //       setEmail("");
-  //       setPassword("");
-  //       setShowData(false);
-  //     }
-  //     //toggle the flag
-  //     else if (email === loginData.email && password === loginData.password) {
-  //       {
-  //         setShowData(true);
-  //       }
-  //     }
-  //     setShowData(!showData);
-  //   };
+
   const handleOnClick = () => {
     if (showData) {
       setEmail("");
