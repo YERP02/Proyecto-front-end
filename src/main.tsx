@@ -7,6 +7,6 @@ import Conexion from "./components/Form/Conexion";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
-    <Conexion />
+    {/*<Conexion />*/}
   </React.StrictMode>
 );
